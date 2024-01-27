@@ -22,7 +22,7 @@ for num in range(1, 4, 1):
             result.append((project_name, stars_count, address_element, project_description))
 
 print(result)
-df = pd.DataFrame(result, columns=['name', 'start', 'address', 'description'])
+df = pd.DataFrame(result, columns=['name', 'stars', 'address', 'description'])
 
 df.to_excel('data.xlsx', index=False)
 

@@ -9,7 +9,7 @@ df = pd.read_excel(r'C:\Users\shangs\Desktop\data.xlsx')
 names = df['name'].tolist()
 
 # 使用正则表达式移除非数字和小数点，然后将列转换为浮点数，最后转换为整数
-stars = df['start'].astype(str).replace('[^\d.]', '', regex=True).astype(float).astype(int).tolist()
+stars = df['stars'].astype(str).replace('[^\d.]', '', regex=True).astype(float).astype(int).tolist()
 
 descriptions = df['description'].tolist()
 

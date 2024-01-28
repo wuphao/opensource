@@ -16,6 +16,4 @@
 
 ##### 结果
 
-可在可视化图表中清晰的看到，gitee上的热门python项目情况
-
-![img](file:///C:/Users/wph/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+可以在我们的可视化图表中清晰的看到，gitee上的热门python项目情况（gitee_python_repos）
